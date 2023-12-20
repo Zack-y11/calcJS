@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Nunito:wght@600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+body{
+    background: url('/bg-calc.webp');
+}
+h1{
+    color: white;
+}
+.container{
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    /* border: 10px solid rgb(255, 255, 255); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#display{
+    background: white;
+    width: 350px;
+    height: 100px;
+    outline: 3px solid black;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.buttons{
+    background: lightblue;
+    width:350px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: blueviolet;
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+    outline: 3px solid black;
+}
+.buttons__double{
+    width: 50%;
+}
+button:hover{
+    transform: scale(1.1);
+
+}
