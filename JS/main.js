@@ -17,7 +17,7 @@ function deleteChar(){
 function operate (){
     try{
         const resultado = eval(expresion)
-        expresion = resultado
+        expresion = resultado.toFixed(5)
         updateDisplay()
     }catch(error){
         expresion = 'Error'
